@@ -1,0 +1,240 @@
+html{
+    /* background: -webkit-linear-gradient(rgb(233, 0, 50), #6400DF);
+    background: linear-gradient(rgb(233, 0, 70), #6400DF); */
+   background: rgb(0, 0, 0); 
+  /* color:rgb(255, 255, 255); */
+  color: #000;
+  
+  
+}
+
+body{
+    /*background:rgba(10,10,10,0.5);
+    */background:#fbc20f;
+  
+}
+
+#logo {
+    width: 60%;
+    height: auto;
+   position: absolute;
+   z-index: 9;
+} 
+
+
+
+section{
+     /* background: rgb(0, 0, 0);  */
+    margin: 10rem auto ;
+    padding: 0rem auto;
+    height: 500px;
+    width: 100%;
+    /* max-width: 80rem; */
+    text-align: center;
+}
+
+section h1{
+    font-size: 6em;
+    padding-top: 2em;
+    font-family: "Azonix", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+h1 {
+	background-image: url(../img/giphy.gif);
+	background-size: cover;
+    color: transparent;
+    background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+section p{
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+footer {
+    padding: 1rem;
+}
+footer p{
+    text-align: center;
+    font-family: "Raleway Thin",Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 1rem auto;
+}
+
+/* about us page */
+
+#about{
+    background: crimson;
+    color:#fff;
+    width: 100%;
+  
+}
+
+
+.about {
+    /* background: rgb(0, 0, 0);  */
+   margin: 0rem auto ;
+   padding: 0rem 0.5rem;
+   height: auto;
+   
+   max-width: 80rem; 
+   text-align: center;
+  
+}
+.who{
+    margin: 2rem auto;
+}
+.who h2 {
+    font-size: 2em;
+    font-family: "Azonix",Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+}
+.who p{
+    font-size: 1.6em;
+    font-family: "Raleway Thin",Arial, Helvetica, sans-serif;
+}
+.c2 .vision{
+    font-size: 2em;
+    font-family: "Azonix",Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+}
+.c2 p{
+    font-size: 1.6em;
+    font-family: "Raleway Thin",Arial, Helvetica, sans-serif;
+}
+
+/* work us page */
+
+#work{
+    background: #5863F8;
+    color:#fff;
+    height: auto;
+    width:100%;
+    min-height: 500px;
+
+}
+
+
+
+
+
+  
+/* contact us page */
+
+#contact{
+    background: #171D1C;
+    color:#fff;
+}
+
+
+
+/* MEDIA queries css */
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    #logo {
+        width: 15%;
+        height: auto;
+    }
+    .header {
+        
+        padding-top: 0rem;
+      
+    }
+    .header .navbar .toggle{
+        padding-left: 2rem;
+    }
+    #logo{
+        margin-left: 2rem;
+    }
+    section{
+        height: 300px;
+    }
+    section h1 {
+        font-size: 3em;
+       padding-top: 8rem;
+    }
+    section p {
+        font-size: 1em;
+      
+    }
+ 
+/* about  */
+
+.about{
+    margin: -8rem 0 3rem 0;
+}
+.who{
+    margin: 2rem auto;
+    width:100%;
+
+}
+.who h2{
+    font-size: 1.3rem;
+    /* margin: 0 -150%; */
+}
+.who p{
+    font-size: 1em;
+}
+.c2{
+    margin: 2rem auto;
+    width:100%;
+}
+.c2 .vision{
+    font-size: 1.3rem;
+}
+.c2 p{
+    font-size: 1em;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #logo {
+        width: 8%;
+        height: auto;
+        margin-left: 2rem;
+    }
+    
+   
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logo {
+        width: 6%;
+        height: auto;
+    }
+    section h1 {
+        font-size: 5em;
+        padding-top: 2em;
+        font-family: "Azonix", Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #logo {
+        width: 5%;
+        height: auto;
+    }
+
+    section h1 {
+        font-size: 5em;
+        padding-top: 2em;
+        font-family: "Azonix", Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+}
